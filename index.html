@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NomadLens — Travel & Adventure Magazine | Explore the World</title>
+  <meta name="description" content="NomadLens is your ultimate travel and adventure magazine. Discover hidden gems, adventure destinations, luxury resorts, sustainable travel tips, and expert guides to explore the world.">
+  <meta name="keywords" content="travel magazine, adventure travel, travel guide, hidden gems, budget travel, luxury travel, sustainable travel, travel tips, destinations 2026">
+  <meta name="author" content="NomadLens">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nomadlens.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NomadLens — Travel & Adventure Magazine">
+  <meta property="og:description" content="Discover hidden gems, adventure destinations, and expert travel guides. See the world through a different lens.">
+  <meta property="og:image" content="images/hero-santorini.png">
+  <meta property="og:url" content="https://nomadlens.com/">
+  <meta property="og:site_name" content="NomadLens">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NomadLens — Travel & Adventure Magazine">
+  <meta name="twitter:description" content="Discover hidden gems, adventure destinations, and expert travel guides.">
+  <meta name="twitter:image" content="images/hero-santorini.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="NomadLens Logo">
+        <span class="logo-text">Nomad<span>Lens</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="article-hidden-gems-southeast-asia.html">Destinations</a>
+        <a href="article-budget-travel-europe.html">Guides</a>
+        <a href="contact.html">Contact</a>
+        <button class="nav-search-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Search Modal -->
+  <div class="search-modal" id="searchModal">
+    <button class="search-close" aria-label="Close search">&times;</button>
+    <div class="search-modal-content">
+      <input type="text" placeholder="Search destinations, guides, tips..." aria-label="Search">
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero-santorini.png" alt="Santorini, Greece — breathtaking sunset over the caldera with white-washed buildings and blue domes">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="section-label">Travel & Adventure Magazine</span>
+      <h1>See the World Through a <span class="highlight">Different Lens</span></h1>
+      <p>Discover hidden gems, breathtaking destinations, and life-changing adventures. Your journey to unforgettable experiences starts here.</p>
+      <div class="hero-cta">
+        <a href="article-hidden-gems-southeast-asia.html" class="btn btn-primary">Explore Destinations</a>
+        <a href="about.html" class="btn btn-outline">Our Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Article -->
+  <section class="section" id="featured">
+    <div class="container">
+      <span class="section-label fade-in">Featured Story</span>
+      <h2 class="section-title fade-in">Editor's Pick</h2>
+      <a href="article-hidden-gems-southeast-asia.html" style="text-decoration:none;">
+        <div class="featured-card fade-in">
+          <div class="card-image">
+            <img src="images/bali-rice-terraces.png" alt="Bali rice terraces — lush green terraced fields cascading down Indonesian hillsides">
+          </div>
+          <div class="card-body">
+            <span class="card-category">Southeast Asia</span>
+            <div class="card-meta">
+              <span>March 10, 2026</span>
+              <span class="dot"></span>
+              <span>12 min read</span>
+            </div>
+            <h3 class="card-title" style="color:var(--text-primary);">10 Hidden Gems in Southeast Asia You Must Visit in 2026</h3>
+            <p class="card-excerpt">From the emerald rice terraces of Bali to the untouched islands of the Philippines, discover Southeast Asia's most spectacular hidden destinations that most travelers never find.</p>
+            <span class="read-more">Read Full Article &rarr;</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Latest Articles Grid -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <span class="section-label fade-in">Latest Stories</span>
+      <h2 class="section-title fade-in">Fresh from the Road</h2>
+      <div class="grid-3">
+        <!-- Article Card 1 -->
+        <article class="card fade-in fade-in-delay-1">
+          <div class="card-image">
+            <img src="images/swiss-alps.png" alt="Swiss Alps — panoramic mountain landscape with meadows and snow-capped peaks">
+            <span class="card-category">Europe</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>March 8, 2026</span>
+              <span class="dot"></span>
+              <span>15 min read</span>
+            </div>
+            <h3 class="card-title"><a href="article-budget-travel-europe.html">The Ultimate Guide to Budget Travel in Europe</a></h3>
+            <p class="card-excerpt">Explore the most beautiful corners of Europe without breaking the bank. Expert tips on affordable flights, hostels, and free attractions.</p>
+            <div class="card-footer">
+              <span class="card-author">By NomadLens Team</span>
+              <a href="article-budget-travel-europe.html" class="read-more">Read &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article Card 2 -->
+        <article class="card fade-in fade-in-delay-2">
+          <div class="card-image">
+            <img src="images/patagonia-mountains.png" alt="Patagonia — dramatic mountain landscape with turquoise glacial lake">
+            <span class="card-category">Adventure</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>March 5, 2026</span>
+              <span class="dot"></span>
+              <span>14 min read</span>
+            </div>
+            <h3 class="card-title"><a href="article-extreme-adventure-destinations.html">Top 7 Extreme Destinations for Thrill Seekers</a></h3>
+            <p class="card-excerpt">From Patagonia's rugged peaks to New Zealand's fjords, discover the world's most adrenaline-pumping adventure destinations.</p>
+            <div class="card-footer">
+              <span class="card-author">By NomadLens Team</span>
+              <a href="article-extreme-adventure-destinations.html" class="read-more">Read &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Article Card 3 -->
+        <article class="card fade-in fade-in-delay-3">
+          <div class="card-image">
+            <img src="images/iceland-aurora.png" alt="Iceland — Northern Lights aurora borealis over glacial lake">
+            <span class="card-category">Sustainable</span>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <span>March 2, 2026</span>
+              <span class="dot"></span>
+              <span>11 min read</span>
+            </div>
+            <h3 class="card-title"><a href="article-sustainable-travel-guide.html">Sustainable Travel: Explore the World Responsibly</a></h3>
+            <p class="card-excerpt">Learn how to minimize your environmental impact while maximizing your travel experiences. A complete guide to eco-conscious exploration.</p>
+            <div class="card-footer">
+              <span class="card-author">By NomadLens Team</span>
+              <a href="article-sustainable-travel-guide.html" class="read-more">Read &rarr;</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Section -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="text-center mb-3">
+        <span class="section-label fade-in">Explore by Category</span>
+        <h2 class="section-title fade-in">Find Your Next Adventure</h2>
+      </div>
+      <div class="categories-grid">
+        <a href="article-hidden-gems-southeast-asia.html" class="category-card fade-in fade-in-delay-1">
+          <img src="images/bali-rice-terraces.png" alt="Hidden Gems — off-the-beaten-path destinations">
+          <div class="category-card-overlay">
+            <h3>Hidden Gems</h3>
+            <p>Off-the-beaten-path destinations</p>
+          </div>
+        </a>
+        <a href="article-extreme-adventure-destinations.html" class="category-card fade-in fade-in-delay-2">
+          <img src="images/new-zealand.png" alt="Adventure Travel — extreme outdoor destinations">
+          <div class="category-card-overlay">
+            <h3>Adventure Travel</h3>
+            <p>For the thrill seekers</p>
+          </div>
+        </a>
+        <a href="article-maldives-travel-guide.html" class="category-card fade-in fade-in-delay-3">
+          <img src="images/maldives-overwater.png" alt="Luxury Escapes — premium resort destinations">
+          <div class="category-card-overlay">
+            <h3>Luxury Escapes</h3>
+            <p>Premium travel experiences</p>
+          </div>
+        </a>
+        <a href="article-sustainable-travel-guide.html" class="category-card fade-in fade-in-delay-4">
+          <img src="images/iceland-aurora.png" alt="Sustainable Travel — eco-friendly exploration">
+          <div class="category-card-overlay">
+            <h3>Eco Travel</h3>
+            <p>Responsible exploration</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Maldives Feature -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <a href="article-maldives-travel-guide.html" style="text-decoration:none;">
+        <div class="featured-card fade-in">
+          <div class="card-image">
+            <img src="images/maldives-overwater.png" alt="Maldives overwater bungalows — crystal clear turquoise water and white sand">
+          </div>
+          <div class="card-body">
+            <span class="card-category">Luxury</span>
+            <div class="card-meta">
+              <span>February 28, 2026</span>
+              <span class="dot"></span>
+              <span>13 min read</span>
+            </div>
+            <h3 class="card-title" style="color:var(--text-primary);">Luxury vs Budget: Maldives Travel Guide for Every Wallet</h3>
+            <p class="card-excerpt">Think the Maldives is only for the ultra-rich? Think again. Our comprehensive guide reveals how to experience paradise at any budget, from $50/night guesthouses to $5,000/night overwater villas.</p>
+            <span class="read-more">Read Full Article &rarr;</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section" style="background: var(--bg-surface); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item fade-in fade-in-delay-1">
+          <span class="stat-number">120+</span>
+          <span class="stat-label">Destinations Covered</span>
+        </div>
+        <div class="stat-item fade-in fade-in-delay-2">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Countries Explored</span>
+        </div>
+        <div class="stat-item fade-in fade-in-delay-3">
+          <span class="stat-number">200+</span>
+          <span class="stat-label">Travel Guides</span>
+        </div>
+        <div class="stat-item fade-in fade-in-delay-4">
+          <span class="stat-number">15K+</span>
+          <span class="stat-label">Monthly Readers</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section">
+    <div class="container">
+      <div class="newsletter fade-in">
+        <span class="section-label">Newsletter</span>
+        <h2>Get Travel Inspiration Delivered</h2>
+        <p>Join thousands of travelers. Receive our best destination guides, travel tips, and exclusive content every week.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="NomadLens Logo">
+            <span class="logo-text">Nomad<span>Lens</span></span>
+          </a>
+          <p>See the world through a different lens. NomadLens is your trusted travel and adventure magazine, delivering expert guides, hidden gems, and travel inspiration since 2024.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="article-hidden-gems-southeast-asia.html">Hidden Gems</a></li>
+            <li><a href="article-extreme-adventure-destinations.html">Adventure Travel</a></li>
+            <li><a href="article-budget-travel-europe.html">Budget Guides</a></li>
+            <li><a href="article-maldives-travel-guide.html">Luxury Escapes</a></li>
+            <li><a href="article-sustainable-travel-guide.html">Eco Travel</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:pramevisit@gmail.com">pramevisit@gmail.com</a></li>
+            <li><a href="contact.html">Send us a message</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 NomadLens. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy-policy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
